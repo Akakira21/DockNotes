@@ -1,0 +1,15 @@
+.espaceNotes{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.NouveauPostIt{
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    border-radius: 25px 25px 25px 0px;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}

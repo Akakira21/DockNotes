@@ -1,0 +1,45 @@
+.barGauche{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-right: 2px solid black;
+    height: 100vh;
+    padding: 2%;
+}
+
+.titre{
+    margin-bottom: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: column;
+}
+
+.blue, .orange, .red, .green, .purple{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.purple{
+    background-color: purple;
+}
